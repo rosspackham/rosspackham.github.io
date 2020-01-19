@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<html>
+<head>
+	<title>Tic Tac Toe project</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div id="main">
+<div id="game-title">
+	<div><h1>Tic Tac Toe Game</h1></div>
+</div>
+<div class="score-container">
+<div class="game-scores">
+	<div id="player1">Player 1</div>
+	<div id="score1"></div>
+	<div id="player2">Player 2</div>
+	<div id="score2"></div>
+</div>
+</div>
+		<div class="board-container">
+			<div class="game-board">
+            <div id="square1"><button class="btns" id="0" value="0" onclick="clickedSquare(this.id); gameWon(this.id);"></button>
+						</div>
+						<div id="square2"><button class="btns" id="1" value="1" onclick="clickedSquare(this.id); gameWon(this.id);"></button>
+						</div>
+						<div id="square3"><button class="btns" id="2" value="2" onclick="clickedSquare(this.id); gameWon(this.id);"></button>
+						</div>
+						<div id="square4"><button class="btns" id="3" value="3" onclick="clickedSquare(this.id); gameWon(this.id);"></button>
+						</div>
+						<div id="square5"><button class="btns" id="4" value="4" onclick="clickedSquare(this.id); gameWon(this.id);"></button>
+						</div>
+						<div id="square6"><button class="btns" id="5" value="5" onclick="clickedSquare(this.id); gameWon(this.id);"></button>
+						</div>
+						<div id="square7"><button class="btns" id="6" value="6" onclick="clickedSquare(this.id); gameWon(this.id);"></button>
+						</div>
+						<div id="square8"><button class="btns" id="7" value="7" onclick="clickedSquare(this.id); gameWon(this.id);"></button>
+						</div>
+						<div id="square9"><button class="btns" id="8" value="8" onclick="clickedSquare(this.id); gameWon(this.id);"></button>
+						</div>
+	    </div>
+		</div>
+			<div class="game-buttons">
+							<button id="btn-play" value="PLAY" onclick="startGame()">PLAY
+							</button>
+							<button id="btn-restart" value="Restart" onclick="restartGame()">Restart game
+							</button>
+			</div>
+</div>
+	<script src="scripts/main.js" type="text/javascript"></script>
+</body>
+</html>
